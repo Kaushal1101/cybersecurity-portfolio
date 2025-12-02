@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ntlm
+#open	2025-11-05-14-01-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	username	hostname	domainname	server_nb_computer_name	server_dns_computer_name	server_tree_name	success
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	bool
+1647896380.934894	CSH7hD1LeFV9ZTHJ41	10.0.19.14	62190	10.0.19.9	139	-	DESKTOP-5QS3D5D	-	BURNINCANDLE-DC	BURNINCANDLE-DC.burnincandle.com	burnincandle.com	T
+1647898117.169584	CTiNID2YBbLFRKyPjb	10.0.19.14	62212	10.0.19.9	139	-	DESKTOP-5QS3D5D	-	BURNINCANDLE-DC	BURNINCANDLE-DC.burnincandle.com	burnincandle.com	T
+1647898117.179712	CZnevb4ZjYyy8UIDui	10.0.19.9	59877	10.0.19.14	139	-	BURNINCANDLE-DC	-	DESKTOP-5QS3D5D	DESKTOP-5QS3D5D.burnincandle.com	burnincandle.com	T
+#close	2025-11-05-14-01-17

@@ -1,0 +1,152 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ldap_search
+#open	2025-11-05-14-01-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	message_id	scope	deref_aliases	base_object	result_count	result	diagnostic_message	filter	attributes
+#types	time	string	addr	port	addr	port	int	string	string	string	count	string	string	string	vector[string]
+1647896380.978256	CGK35T2ABGptvZvDx6	10.0.19.14	58290	10.0.19.9	389	31	base	never	-	1	success	-	(&(&(&(&(DnsDomain=burnincandle.com.)(Host=DESKTOP-5QS3D5D))(DomainGuid=87bbb7d8-65a9-449d-88b4-24f8cfc9c572))(NtVer=0x00000016))(DnsHostName=DESKTOP-5QS3D5D.burnincandle.com))	-
+1647897130.189233	CsSzom2aUDT32fih81	10.0.19.14	50515	10.0.19.9	389	32	base	never	-	1	success	-	(&(&(&(&(DnsDomain=burnincandle.com.)(Host=DESKTOP-5QS3D5D))(DomainGuid=87bbb7d8-65a9-449d-88b4-24f8cfc9c572))(NtVer=0x00000016))(DnsHostName=DESKTOP-5QS3D5D.burnincandle.com))	-
+1647897130.336289	Cj6MC61RvIJ5daZWOf	10.0.19.14	50517	10.0.19.9	389	33	base	never	-	1	success	-	(&(&(&(&(DnsDomain=burnincandle.com.)(Host=DESKTOP-5QS3D5D))(DomainGuid=87bbb7d8-65a9-449d-88b4-24f8cfc9c572))(NtVer=0x20000016))(DnsHostName=DESKTOP-5QS3D5D.burnincandle.com))	-
+1647897130.443849	CPo8xb1TQQZPmym11l	10.0.19.14	62203	10.0.19.9	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1647897130.448276	CPo8xb1TQQZPmym11l	10.0.19.14	62203	10.0.19.9	389	4	base	never	CN=DESKTOP-5QS3D5D,CN=Computers,DC=burnincandle,DC=com	1	success	-	(objectclass=*)	-
+1647897130.449057	CPo8xb1TQQZPmym11l	10.0.19.14	62203	10.0.19.9	389	5	base	never	CN=DESKTOP-5QS3D5D,CN=Computers,DC=burnincandle,DC=com	1	success	-	(objectclass=*)	-
+1647897130.449815	CPo8xb1TQQZPmym11l	10.0.19.14	62203	10.0.19.9	389	6	base	never	CN=DESKTOP-5QS3D5D,CN=Computers,DC=burnincandle,DC=com	1	success	-	(objectclass=*)	-
+1647897130.457863	CQKrkG4l8motjvaptl	10.0.19.14	62204	10.0.19.9	389	10	base	never	-	1	success	-	(ObjectClass=*)	-
+1647897130.459238	CQKrkG4l8motjvaptl	10.0.19.14	62204	10.0.19.9	389	11	base	never	CN=62a0ff2e-97b9-4513-943f-0d221bd30080,CN=Device Registration Configuration,CN=services,CN=Configuration,DC=burnincandle,DC=com	0	no such object	0000208D: NameErr: DSID-03100288, problem 2001 (NO_OBJECT), data 0, best match of:??'CN=Services,CN=Configuration,DC=burnincandle,DC=com'??	(ObjectClass=*)	-
+1647898110.857717	CP6GkZ3UZ7xBDe9Aba	10.0.19.14	58718	10.0.19.9	389	34	base	never	-	1	success	-	(&(&(&(&(DnsDomain=burnincandle.com.)(Host=DESKTOP-5QS3D5D))(DomainGuid=87bbb7d8-65a9-449d-88b4-24f8cfc9c572))(NtVer=0x20000016))(DnsHostName=DESKTOP-5QS3D5D.burnincandle.com))	-
+1647898110.964639	CCGkvz3hStoJvuuQB9	10.0.19.14	62209	10.0.19.9	389	9	base	never	-	1	success	-	(objectclass=*)	-
+1647898117.058216	ChtSxB1rOx3BWDfiQg	10.0.19.14	50821	10.0.19.9	389	35	base	never	-	1	success	-	(&(&(&(&(DnsDomain=burnincandle.com.)(Host=DESKTOP-5QS3D5D))(DomainGuid=87bbb7d8-65a9-449d-88b4-24f8cfc9c572))(NtVer=0x10000016))(DnsHostName=DESKTOP-5QS3D5D.burnincandle.com))	-
+1647898139.617426	ChRsdq4u6DcHZR4Is8	10.0.19.14	64808	10.0.19.9	389	36	base	never	-	1	success	-	(&(&(&(&(DnsDomain=burnincandle.com.)(Host=DESKTOP-5QS3D5D))(DomainGuid=87bbb7d8-65a9-449d-88b4-24f8cfc9c572))(NtVer=0x00000016))(DnsHostName=DESKTOP-5QS3D5D.burnincandle.com))	-
+1647899008.684677	CPSU571Xme2ydULOkh	10.0.19.14	54960	10.0.19.9	389	37	base	never	-	1	success	-	(&(&(&(&(DnsDomain=burnincandle.com.)(Host=DESKTOP-5QS3D5D))(DomainGuid=87bbb7d8-65a9-449d-88b4-24f8cfc9c572))(NtVer=0x20000016))(DnsHostName=DESKTOP-5QS3D5D.burnincandle.com))	-
+1647899008.694240	CPSU571Xme2ydULOkh	10.0.19.14	54960	10.0.19.9	389	38	base	never	-	1	success	-	(&(&(&(&(DnsDomain=burnincandle.com.)(Host=DESKTOP-5QS3D5D))(DomainGuid=87bbb7d8-65a9-449d-88b4-24f8cfc9c572))(NtVer=0x20000016))(DnsHostName=DESKTOP-5QS3D5D.burnincandle.com))	-
+1647899008.771487	CPSU571Xme2ydULOkh	10.0.19.14	54960	10.0.19.9	389	39	base	never	-	1	success	-	(&(&(&(&(DnsDomain=BURNINCANDLE.COM)(Host=DESKTOP-5QS3D5D))(DomainGuid=87bbb7d8-65a9-449d-88b4-24f8cfc9c572))(NtVer=0x20000016))(DnsHostName=DESKTOP-5QS3D5D.burnincandle.com))	-
+1647899008.795318	CPSU571Xme2ydULOkh	10.0.19.14	54960	10.0.19.9	389	40	base	never	-	1	success	-	(&(&(&(&(&(DnsDomain=burnincandle.com.)(Host=DESKTOP-5QS3D5D))(DomainSid=S-1-5-21-830589029-4204018613-855996679))(DomainGuid=87bbb7d8-65a9-449d-88b4-24f8cfc9c572))(NtVer=0x00000016))(DnsHostName=DESKTOP-5QS3D5D.burnincandle.com))	-
+1647899009.107932	ClzsZhrmyVkpas0rk	10.0.19.14	62233	10.0.19.9	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1647899009.116568	ClzsZhrmyVkpas0rk	10.0.19.14	62233	10.0.19.9	389	4	tree	never	DC=burnincandle,DC=com	1	success	-	(|(distinguishedName=DC=burnincandle,DC=com))	-
+1647899009.120885	CJIKGE3OC2SnVQgorg	10.0.19.14	62234	10.0.19.9	389	8	base	never	-	1	success	-	(objectClass=*)	-
+1647899009.121276	CJIKGE3OC2SnVQgorg	10.0.19.14	62234	10.0.19.9	389	9	base	never	CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=burnincandle,DC=com	1	success	-	(objectClass=*)	-
+1647899009.122580	ClzsZhrmyVkpas0rk	10.0.19.14	62233	10.0.19.9	389	10	tree	never	cn=policies,cn=system,DC=burnincandle,DC=com	0	success	-	(&(&(!(flags:1.2.840.113556.1.4.803:=1))(gPCUserExtensionNames=[*]))(|(distinguishedName=CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=Policies,CN=System,DC=burnincandle,DC=com)))	-
+1647899069.513749	CUeSxU2LEAn5SCi285	10.0.19.14	49858	10.0.19.9	389	41	base	never	-	1	success	-	(&(&(&(&(DnsDomain=burnincandle.com.)(Host=DESKTOP-5QS3D5D))(DomainGuid=87bbb7d8-65a9-449d-88b4-24f8cfc9c572))(NtVer=0x00000016))(DnsHostName=DESKTOP-5QS3D5D.burnincandle.com))	-
+1647899069.653574	CTSil74bM0B54bUPoi	10.0.19.14	62251	10.0.19.9	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1647899069.656581	CTSil74bM0B54bUPoi	10.0.19.14	62251	10.0.19.9	389	4	base	never	CN=DESKTOP-5QS3D5D,CN=Computers,DC=burnincandle,DC=com	1	success	-	(objectclass=*)	-
+1647899069.657280	CTSil74bM0B54bUPoi	10.0.19.14	62251	10.0.19.9	389	5	base	never	CN=DESKTOP-5QS3D5D,CN=Computers,DC=burnincandle,DC=com	1	success	-	(objectclass=*)	-
+1647899069.657888	CTSil74bM0B54bUPoi	10.0.19.14	62251	10.0.19.9	389	6	base	never	CN=DESKTOP-5QS3D5D,CN=Computers,DC=burnincandle,DC=com	1	success	-	(objectclass=*)	-
+1647899069.661912	CJv2mKQX6YfhbNeJ5	10.0.19.14	62252	10.0.19.9	389	10	base	never	-	1	success	-	(ObjectClass=*)	-
+1647899069.662851	CJv2mKQX6YfhbNeJ5	10.0.19.14	62252	10.0.19.9	389	11	base	never	CN=62a0ff2e-97b9-4513-943f-0d221bd30080,CN=Device Registration Configuration,CN=services,CN=Configuration,DC=burnincandle,DC=com	0	no such object	0000208D: NameErr: DSID-03100288, problem 2001 (NO_OBJECT), data 0, best match of:??'CN=Services,CN=Configuration,DC=burnincandle,DC=com'??	(ObjectClass=*)	-
+1647900354.449183	CLtuyy1mJd6xpkSHjj	10.0.19.14	62283	10.0.19.9	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1647900354.458460	CLtuyy1mJd6xpkSHjj	10.0.19.14	62283	10.0.19.9	389	4	base	never	-	1	success	-	(objectClass=*)	-
+1647900354.462864	CxPCyr2tvpmVa4pqrl	10.0.19.14	62285	10.0.19.9	389	9	base	never	DC=burnincandle,DC=com	1	success	-	(objectClass=*)	-
+1647900354.463895	CxPCyr2tvpmVa4pqrl	10.0.19.14	62285	10.0.19.9	389	10	base	never	-	1	success	-	(objectClass=*)	-
+1647900354.464614	CxPCyr2tvpmVa4pqrl	10.0.19.14	62285	10.0.19.9	389	11	base	never	DC=burnincandle,DC=com	1	success	-	(objectClass=*)	-
+1647900354.466502	CxPCyr2tvpmVa4pqrl	10.0.19.14	62285	10.0.19.9	389	12	base	never	-	1	success	-	(objectClass=*)	-
+1647900354.467062	CxPCyr2tvpmVa4pqrl	10.0.19.14	62285	10.0.19.9	389	13	base	never	CN=Schema,CN=Configuration,DC=burnincandle,DC=com	1	success	-	(objectClass=dMD)	-
+1647900354.467536	CxPCyr2tvpmVa4pqrl	10.0.19.14	62285	10.0.19.9	389	14	base	never	CN=Schema,CN=Configuration,DC=burnincandle,DC=com	1	success	-	(objectClass=dMD)	-
+1647900354.470742	CxPCyr2tvpmVa4pqrl	10.0.19.14	62285	10.0.19.9	389	15	base	never	CN=Aggregate,CN=Schema,CN=Configuration,DC=burnincandle,DC=com	1	success	-	(objectClass=*)	-
+1647900354.547930	CxPCyr2tvpmVa4pqrl	10.0.19.14	62285	10.0.19.9	389	16	base	never	DC=burnincandle,DC=com	1	success	-	(objectClass=*)	-
+1647900354.551729	CxPCyr2tvpmVa4pqrl	10.0.19.14	62285	10.0.19.9	389	18	tree	never	DC=burnincandle,DC=com	3	success	-	(&(&(&(objectClass=Computer)(dnshostname=*))(operatingsystem=*))(servicePrincipalName=*))	-
+1647900730.089547	CxiMhn2Cy9z56dJGc1	10.0.19.14	58078	10.0.19.9	389	42	base	never	-	1	success	-	(&(&(&(&(DnsDomain=burnincandle.com.)(Host=DESKTOP-5QS3D5D))(DomainGuid=87bbb7d8-65a9-449d-88b4-24f8cfc9c572))(NtVer=0x00000016))(DnsHostName=DESKTOP-5QS3D5D.burnincandle.com))	-
+1647900730.239879	CLLUgO1QvASIPpiRf3	10.0.19.14	62307	10.0.19.9	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1647900730.243268	CLLUgO1QvASIPpiRf3	10.0.19.14	62307	10.0.19.9	389	4	base	never	CN=DESKTOP-5QS3D5D,CN=Computers,DC=burnincandle,DC=com	1	success	-	(objectclass=*)	-
+1647900730.243842	CLLUgO1QvASIPpiRf3	10.0.19.14	62307	10.0.19.9	389	5	base	never	CN=DESKTOP-5QS3D5D,CN=Computers,DC=burnincandle,DC=com	1	success	-	(objectclass=*)	-
+1647900730.244387	CLLUgO1QvASIPpiRf3	10.0.19.14	62307	10.0.19.9	389	6	base	never	CN=DESKTOP-5QS3D5D,CN=Computers,DC=burnincandle,DC=com	1	success	-	(objectclass=*)	-
+1647900730.248658	Csq9lYUR7cAQv56Be	10.0.19.14	62308	10.0.19.9	389	10	base	never	-	1	success	-	(ObjectClass=*)	-
+1647900730.249607	Csq9lYUR7cAQv56Be	10.0.19.14	62308	10.0.19.9	389	11	base	never	CN=62a0ff2e-97b9-4513-943f-0d221bd30080,CN=Device Registration Configuration,CN=services,CN=Configuration,DC=burnincandle,DC=com	0	no such object	0000208D: NameErr: DSID-03100288, problem 2001 (NO_OBJECT), data 0, best match of:??'CN=Services,CN=Configuration,DC=burnincandle,DC=com'??	(ObjectClass=*)	-
+1647900774.396959	CVa23wqpzztKKZmV2	10.0.19.14	62311	10.0.19.9	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1647900774.406542	CVa23wqpzztKKZmV2	10.0.19.14	62311	10.0.19.9	389	4	tree	never	DC=burnincandle,DC=com	1	success	-	(|(distinguishedName=DC=burnincandle,DC=com))	-
+1647900774.410956	CgBuqw1UuImNWSbacb	10.0.19.14	62312	10.0.19.9	389	8	base	never	-	1	success	-	(objectClass=*)	-
+1647900774.411273	CgBuqw1UuImNWSbacb	10.0.19.14	62312	10.0.19.9	389	9	base	never	CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=burnincandle,DC=com	1	success	-	(objectClass=*)	-
+1647900774.412115	CVa23wqpzztKKZmV2	10.0.19.14	62311	10.0.19.9	389	10	tree	never	cn=policies,cn=system,DC=burnincandle,DC=com	1	success	-	(&(&(!(flags:1.2.840.113556.1.4.803:=2))(gPCMachineExtensionNames=[*]))(|(distinguishedName=CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=Policies,CN=System,DC=burnincandle,DC=com)))	-
+1647904329.933423	C4YLzmYouSmqVcG8j	10.0.19.14	53865	10.0.19.9	389	43	base	never	-	1	success	-	(&(&(&(&(DnsDomain=burnincandle.com.)(Host=DESKTOP-5QS3D5D))(DomainGuid=87bbb7d8-65a9-449d-88b4-24f8cfc9c572))(NtVer=0x00000016))(DnsHostName=DESKTOP-5QS3D5D.burnincandle.com))	-
+1647904330.063680	CfuVFn4sFOWWS0gOfh	10.0.19.14	53867	10.0.19.9	389	44	base	never	-	1	success	-	(&(&(&(&(DnsDomain=burnincandle.com.)(Host=DESKTOP-5QS3D5D))(DomainGuid=87bbb7d8-65a9-449d-88b4-24f8cfc9c572))(NtVer=0x20000016))(DnsHostName=DESKTOP-5QS3D5D.burnincandle.com))	-
+1647904330.170760	CfCHhp448ouP3gpvN9	10.0.19.14	62340	10.0.19.9	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1647904330.175091	CfCHhp448ouP3gpvN9	10.0.19.14	62340	10.0.19.9	389	4	base	never	CN=DESKTOP-5QS3D5D,CN=Computers,DC=burnincandle,DC=com	1	success	-	(objectclass=*)	-
+1647904330.175929	CfCHhp448ouP3gpvN9	10.0.19.14	62340	10.0.19.9	389	5	base	never	CN=DESKTOP-5QS3D5D,CN=Computers,DC=burnincandle,DC=com	1	success	-	(objectclass=*)	-
+1647904330.176753	CfCHhp448ouP3gpvN9	10.0.19.14	62340	10.0.19.9	389	6	base	never	CN=DESKTOP-5QS3D5D,CN=Computers,DC=burnincandle,DC=com	1	success	-	(objectclass=*)	-
+1647904330.185261	CYBMmQ272vjdP8pRQb	10.0.19.14	62341	10.0.19.9	389	10	base	never	-	1	success	-	(ObjectClass=*)	-
+1647904330.186488	CYBMmQ272vjdP8pRQb	10.0.19.14	62341	10.0.19.9	389	11	base	never	CN=62a0ff2e-97b9-4513-943f-0d221bd30080,CN=Device Registration Configuration,CN=services,CN=Configuration,DC=burnincandle,DC=com	0	no such object	0000208D: NameErr: DSID-03100288, problem 2001 (NO_OBJECT), data 0, best match of:??'CN=Services,CN=Configuration,DC=burnincandle,DC=com'??	(ObjectClass=*)	-
+1647904588.482076	COffNhWFEWdvFTspl	10.0.19.14	60362	10.0.19.9	389	45	base	never	-	1	success	-	(&(&(&(&(&(DnsDomain=burnincandle.com.)(Host=DESKTOP-5QS3D5D))(DomainSid=S-1-5-21-830589029-4204018613-855996679))(DomainGuid=87bbb7d8-65a9-449d-88b4-24f8cfc9c572))(NtVer=0x00000016))(DnsHostName=DESKTOP-5QS3D5D.burnincandle.com))	-
+1647904588.928065	Cda9ju3umhULf2t5c3	10.0.19.14	62347	10.0.19.9	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1647904588.935196	Cda9ju3umhULf2t5c3	10.0.19.14	62347	10.0.19.9	389	4	tree	never	DC=burnincandle,DC=com	1	success	-	(|(distinguishedName=DC=burnincandle,DC=com))	-
+1647904588.939972	CCV51h1YRbF11pf6Ka	10.0.19.14	62348	10.0.19.9	389	8	base	never	-	1	success	-	(objectClass=*)	-
+1647904588.940374	CCV51h1YRbF11pf6Ka	10.0.19.14	62348	10.0.19.9	389	9	base	never	CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=burnincandle,DC=com	1	success	-	(objectClass=*)	-
+1647904588.941217	Cda9ju3umhULf2t5c3	10.0.19.14	62347	10.0.19.9	389	10	tree	never	cn=policies,cn=system,DC=burnincandle,DC=com	0	success	-	(&(&(!(flags:1.2.840.113556.1.4.803:=1))(gPCUserExtensionNames=[*]))(|(distinguishedName=CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=Policies,CN=System,DC=burnincandle,DC=com)))	-
+1647906954.739614	COIwDH3AdEoS7AIKO7	10.0.19.14	50955	10.0.19.9	389	46	base	never	-	1	success	-	(&(&(&(&(DnsDomain=burnincandle.com.)(Host=DESKTOP-5QS3D5D))(DomainGuid=87bbb7d8-65a9-449d-88b4-24f8cfc9c572))(NtVer=0x20000016))(DnsHostName=DESKTOP-5QS3D5D.burnincandle.com))	-
+1647906955.060541	CkFHtv1tM3cNTPIazl	10.0.19.14	62369	10.0.19.9	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1647906955.068834	CkFHtv1tM3cNTPIazl	10.0.19.14	62369	10.0.19.9	389	4	tree	never	DC=burnincandle,DC=com	1	success	-	(|(distinguishedName=DC=burnincandle,DC=com))	-
+1647906955.070651	CgR3Qp3TsAW4HnrULk	10.0.19.14	50957	10.0.19.9	389	47	base	never	-	1	success	-	(&(&(&(&(DnsDomain=burnincandle.com)(Host=DESKTOP-5QS3D5D))(DomainGuid=87bbb7d8-65a9-449d-88b4-24f8cfc9c572))(NtVer=0x20000016))(DnsHostName=DESKTOP-5QS3D5D.burnincandle.com))	-
+1647906955.182116	CfO7f94sggEckzTlC7	10.0.19.14	62370	10.0.19.9	389	8	base	never	-	1	success	-	(objectClass=*)	-
+1647906955.182881	CfO7f94sggEckzTlC7	10.0.19.14	62370	10.0.19.9	389	9	base	never	CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=burnincandle,DC=com	1	success	-	(objectClass=*)	-
+1647906955.184570	CkFHtv1tM3cNTPIazl	10.0.19.14	62369	10.0.19.9	389	10	tree	never	cn=policies,cn=system,DC=burnincandle,DC=com	1	success	-	(&(&(!(flags:1.2.840.113556.1.4.803:=2))(gPCMachineExtensionNames=[*]))(|(distinguishedName=CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=Policies,CN=System,DC=burnincandle,DC=com)))	-
+1647907929.982943	Cf3tfK3KXspJk2dV5k	10.0.19.14	62167	10.0.19.9	389	48	base	never	-	1	success	-	(&(&(&(&(DnsDomain=burnincandle.com.)(Host=DESKTOP-5QS3D5D))(DomainGuid=87bbb7d8-65a9-449d-88b4-24f8cfc9c572))(NtVer=0x00000016))(DnsHostName=DESKTOP-5QS3D5D.burnincandle.com))	-
+1647907930.115333	ChSQM23VYBdTGhORAh	10.0.19.14	62379	10.0.19.9	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1647907930.117789	ChSQM23VYBdTGhORAh	10.0.19.14	62379	10.0.19.9	389	4	base	never	CN=DESKTOP-5QS3D5D,CN=Computers,DC=burnincandle,DC=com	1	success	-	(objectclass=*)	-
+1647907930.118054	ChSQM23VYBdTGhORAh	10.0.19.14	62379	10.0.19.9	389	5	base	never	CN=DESKTOP-5QS3D5D,CN=Computers,DC=burnincandle,DC=com	1	success	-	(objectclass=*)	-
+1647907930.118326	ChSQM23VYBdTGhORAh	10.0.19.14	62379	10.0.19.9	389	6	base	never	CN=DESKTOP-5QS3D5D,CN=Computers,DC=burnincandle,DC=com	1	success	-	(objectclass=*)	-
+1647907930.121650	CaFxHgAJompQtx0w3	10.0.19.14	62380	10.0.19.9	389	10	base	never	-	1	success	-	(ObjectClass=*)	-
+1647907930.122392	CaFxHgAJompQtx0w3	10.0.19.14	62380	10.0.19.9	389	11	base	never	CN=62a0ff2e-97b9-4513-943f-0d221bd30080,CN=Device Registration Configuration,CN=services,CN=Configuration,DC=burnincandle,DC=com	0	no such object	0000208D: NameErr: DSID-03100288, problem 2001 (NO_OBJECT), data 0, best match of:??'CN=Services,CN=Configuration,DC=burnincandle,DC=com'??	(ObjectClass=*)	-
+1647908840.706471	CdkVHI3YMMKoJseWTj	10.0.19.14	50474	10.0.19.9	389	49	base	never	-	1	success	-	(&(&(&(&(DnsDomain=burnincandle.com.)(Host=DESKTOP-5QS3D5D))(DomainGuid=87bbb7d8-65a9-449d-88b4-24f8cfc9c572))(NtVer=0x20000016))(DnsHostName=DESKTOP-5QS3D5D.burnincandle.com))	-
+1647908840.811134	CRx1gb2durAOzqe2ab	10.0.19.14	62406	10.0.19.9	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1647908840.813543	CRx1gb2durAOzqe2ab	10.0.19.14	62406	10.0.19.9	389	4	base	never	CN=DESKTOP-5QS3D5D,CN=Computers,DC=burnincandle,DC=com	1	success	-	(objectclass=*)	-
+1647908840.814002	CRx1gb2durAOzqe2ab	10.0.19.14	62406	10.0.19.9	389	5	base	never	CN=DESKTOP-5QS3D5D,CN=Computers,DC=burnincandle,DC=com	1	success	-	(objectclass=*)	-
+1647908840.814343	CRx1gb2durAOzqe2ab	10.0.19.14	62406	10.0.19.9	389	6	base	never	CN=DESKTOP-5QS3D5D,CN=Computers,DC=burnincandle,DC=com	1	success	-	(objectclass=*)	-
+1647908840.818720	C6UgXo3pxTjImpBz8b	10.0.19.14	62407	10.0.19.9	389	10	base	never	-	1	success	-	(ObjectClass=*)	-
+1647908840.819479	C6UgXo3pxTjImpBz8b	10.0.19.14	62407	10.0.19.9	389	11	base	never	CN=62a0ff2e-97b9-4513-943f-0d221bd30080,CN=Device Registration Configuration,CN=services,CN=Configuration,DC=burnincandle,DC=com	0	no such object	0000208D: NameErr: DSID-03100288, problem 2001 (NO_OBJECT), data 0, best match of:??'CN=Services,CN=Configuration,DC=burnincandle,DC=com'??	(ObjectClass=*)	-
+1647910170.188263	COEUxr3gWpL5YZ7qxd	10.0.19.14	50114	10.0.19.9	389	50	base	never	-	1	success	-	(&(&(&(&(DnsDomain=burnincandle.com.)(Host=DESKTOP-5QS3D5D))(DomainGuid=87bbb7d8-65a9-449d-88b4-24f8cfc9c572))(NtVer=0x20000016))(DnsHostName=DESKTOP-5QS3D5D.burnincandle.com))	-
+1647910170.188263	COEUxr3gWpL5YZ7qxd	10.0.19.14	50114	10.0.19.9	389	51	base	never	-	1	success	-	(&(&(&(&(&(DnsDomain=burnincandle.com.)(Host=DESKTOP-5QS3D5D))(DomainSid=S-1-5-21-830589029-4204018613-855996679))(DomainGuid=87bbb7d8-65a9-449d-88b4-24f8cfc9c572))(NtVer=0x00000016))(DnsHostName=DESKTOP-5QS3D5D.burnincandle.com))	-
+1647910170.633453	CZwivD1V2PXXTp1mU	10.0.19.14	62442	10.0.19.9	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1647910170.650509	CZwivD1V2PXXTp1mU	10.0.19.14	62442	10.0.19.9	389	4	tree	never	DC=burnincandle,DC=com	1	success	-	(|(distinguishedName=DC=burnincandle,DC=com))	-
+1647910170.657797	CwI3tv1nvqI37aY15h	10.0.19.14	62443	10.0.19.9	389	8	base	never	-	1	success	-	(objectClass=*)	-
+1647910170.658384	CwI3tv1nvqI37aY15h	10.0.19.14	62443	10.0.19.9	389	9	base	never	CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=burnincandle,DC=com	1	success	-	(objectClass=*)	-
+1647910170.659573	CZwivD1V2PXXTp1mU	10.0.19.14	62442	10.0.19.9	389	10	tree	never	cn=policies,cn=system,DC=burnincandle,DC=com	0	success	-	(&(&(!(flags:1.2.840.113556.1.4.803:=1))(gPCUserExtensionNames=[*]))(|(distinguishedName=CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=Policies,CN=System,DC=burnincandle,DC=com)))	-
+1647911020.563949	CecCuY1KCQWXs62HY9	10.0.19.14	62460	10.0.19.9	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1647911020.567987	CecCuY1KCQWXs62HY9	10.0.19.14	62460	10.0.19.9	389	4	base	never	-	1	success	-	(objectCategory=*)	-
+1647911020.568479	CecCuY1KCQWXs62HY9	10.0.19.14	62460	10.0.19.9	389	5	base	never	-	1	success	-	(objectCategory=*)	-
+1647911020.568876	CecCuY1KCQWXs62HY9	10.0.19.14	62460	10.0.19.9	389	6	base	never	CN=NTDS Settings,CN=BURNINCANDLE-DC,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=burnincandle,DC=com	1	success	-	(objectCategory=*)	-
+1647911020.569372	CecCuY1KCQWXs62HY9	10.0.19.14	62460	10.0.19.9	389	7	tree	never	CN=Public Key Services,CN=Services,CN=Configuration,DC=burnincandle,DC=com	0	success	-	(objectCategory=certificationAuthority)	-
+1647911020.569858	CecCuY1KCQWXs62HY9	10.0.19.14	62460	10.0.19.9	389	8	single	never	CN=OID,CN=Public Key Services,CN=Services,CN=Configuration,DC=burnincandle,DC=com	0	success	-	(ObjectClass=*)	-
+1647911020.574260	CVVAj82QNYn7XugMN8	10.0.19.14	55746	10.0.19.9	389	52	base	never	-	1	success	-	(&(&(&(&(DnsDomain=burnincandle.com)(Host=DESKTOP-5QS3D5D))(DomainGuid=87bbb7d8-65a9-449d-88b4-24f8cfc9c572))(NtVer=0x20000016))(DnsHostName=DESKTOP-5QS3D5D.burnincandle.com))	-
+1647911020.696550	CcDS132Q1YhYxDAJz9	10.0.19.14	62461	10.0.19.9	389	12	base	never	-	1	success	-	(objectClass=*)	-
+1647911020.701690	CuNPR046q0zgMo8B38	10.0.19.14	55747	10.0.19.9	389	53	base	never	-	1	success	-	(&(&(&(&(DnsDomain=BURNINCANDLE.COM)(Host=DESKTOP-5QS3D5D))(DomainGuid=87bbb7d8-65a9-449d-88b4-24f8cfc9c572))(NtVer=0x20000016))(DnsHostName=DESKTOP-5QS3D5D.burnincandle.com))	-
+1647911020.831886	CcDS132Q1YhYxDAJz9	10.0.19.14	62461	10.0.19.9	389	13	tree	never	CN=Certificate Templates,CN=Public Key Services,CN=Services,CN=Configuration,DC=burnincandle,DC=com	0	success	-	(objectCategory=pKICertificateTemplate)	-
+1647911529.876486	Cacu6uek15MdIhNs5	10.0.19.14	62224	10.0.19.9	389	54	base	never	-	1	success	-	(&(&(&(&(DnsDomain=burnincandle.com.)(Host=DESKTOP-5QS3D5D))(DomainGuid=87bbb7d8-65a9-449d-88b4-24f8cfc9c572))(NtVer=0x00000016))(DnsHostName=DESKTOP-5QS3D5D.burnincandle.com))	-
+1647911530.008728	Cgrfln25bPfiRsNeK8	10.0.19.14	62481	10.0.19.9	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1647911530.011821	Cgrfln25bPfiRsNeK8	10.0.19.14	62481	10.0.19.9	389	4	base	never	CN=DESKTOP-5QS3D5D,CN=Computers,DC=burnincandle,DC=com	1	success	-	(objectclass=*)	-
+1647911530.012365	Cgrfln25bPfiRsNeK8	10.0.19.14	62481	10.0.19.9	389	5	base	never	CN=DESKTOP-5QS3D5D,CN=Computers,DC=burnincandle,DC=com	1	success	-	(objectclass=*)	-
+1647911530.012795	Cgrfln25bPfiRsNeK8	10.0.19.14	62481	10.0.19.9	389	6	base	never	CN=DESKTOP-5QS3D5D,CN=Computers,DC=burnincandle,DC=com	1	success	-	(objectclass=*)	-
+1647911530.016756	CoKcZmSYb4FIGcz2f	10.0.19.14	62482	10.0.19.9	389	10	base	never	-	1	success	-	(ObjectClass=*)	-
+1647911530.017644	CoKcZmSYb4FIGcz2f	10.0.19.14	62482	10.0.19.9	389	11	base	never	CN=62a0ff2e-97b9-4513-943f-0d221bd30080,CN=Device Registration Configuration,CN=services,CN=Configuration,DC=burnincandle,DC=com	0	no such object	0000208D: NameErr: DSID-03100288, problem 2001 (NO_OBJECT), data 0, best match of:??'CN=Services,CN=Configuration,DC=burnincandle,DC=com'??	(ObjectClass=*)	-
+1647913134.784106	CnJHTl42HWtn28nosb	10.0.19.14	62513	10.0.19.9	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1647913134.791320	C6dBSG2T5g9VfcE5Q2	10.0.19.14	58189	10.0.19.9	389	55	base	never	-	1	success	-	(&(&(&(&(&(DnsDomain=burnincandle.com.)(Host=DESKTOP-5QS3D5D))(DomainSid=S-1-5-21-830589029-4204018613-855996679))(DomainGuid=87bbb7d8-65a9-449d-88b4-24f8cfc9c572))(NtVer=0x20000016))(DnsHostName=DESKTOP-5QS3D5D.burnincandle.com))	-
+1647913134.905855	CnJHTl42HWtn28nosb	10.0.19.14	62513	10.0.19.9	389	4	tree	never	DC=burnincandle,DC=com	1	success	-	(|(distinguishedName=DC=burnincandle,DC=com))	-
+1647913134.910002	CuYSrm3rTKlmFCREv4	10.0.19.14	58190	10.0.19.9	389	56	base	never	-	1	success	-	(&(&(&(&(DnsDomain=burnincandle.com)(Host=DESKTOP-5QS3D5D))(DomainGuid=87bbb7d8-65a9-449d-88b4-24f8cfc9c572))(NtVer=0x20000016))(DnsHostName=DESKTOP-5QS3D5D.burnincandle.com))	-
+1647913135.030775	CTYUu83xR5w44AFnL9	10.0.19.14	62514	10.0.19.9	389	8	base	never	-	1	success	-	(objectClass=*)	-
+1647913135.031496	CTYUu83xR5w44AFnL9	10.0.19.14	62514	10.0.19.9	389	9	base	never	CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=burnincandle,DC=com	1	success	-	(objectClass=*)	-
+1647913135.033277	CnJHTl42HWtn28nosb	10.0.19.14	62513	10.0.19.9	389	10	tree	never	cn=policies,cn=system,DC=burnincandle,DC=com	1	success	-	(&(&(!(flags:1.2.840.113556.1.4.803:=2))(gPCMachineExtensionNames=[*]))(|(distinguishedName=CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=Policies,CN=System,DC=burnincandle,DC=com)))	-
+1647914217.033516	Cl9cnL3joC18DENvoa	10.0.19.14	58459	10.0.19.9	389	57	base	never	-	1	success	-	(&(&(&(&(DnsDomain=burnincandle.com.)(Host=DESKTOP-5QS3D5D))(DomainGuid=87bbb7d8-65a9-449d-88b4-24f8cfc9c572))(NtVer=0x20000016))(DnsHostName=DESKTOP-5QS3D5D.burnincandle.com))	-
+1647915129.730603	CCBf02bUzNhubk9lb	10.0.19.14	61380	10.0.19.9	389	58	base	never	-	1	success	-	(&(&(&(&(DnsDomain=burnincandle.com.)(Host=DESKTOP-5QS3D5D))(DomainGuid=87bbb7d8-65a9-449d-88b4-24f8cfc9c572))(NtVer=0x00000016))(DnsHostName=DESKTOP-5QS3D5D.burnincandle.com))	-
+1647915129.861853	C9TZ1V2dqBUZoGufwf	10.0.19.14	61382	10.0.19.9	389	59	base	never	-	1	success	-	(&(&(&(&(DnsDomain=burnincandle.com.)(Host=DESKTOP-5QS3D5D))(DomainGuid=87bbb7d8-65a9-449d-88b4-24f8cfc9c572))(NtVer=0x20000016))(DnsHostName=DESKTOP-5QS3D5D.burnincandle.com))	-
+1647915129.967228	CXceOpTy78SdsdHpj	10.0.19.14	62557	10.0.19.9	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1647915129.971514	CXceOpTy78SdsdHpj	10.0.19.14	62557	10.0.19.9	389	4	base	never	CN=DESKTOP-5QS3D5D,CN=Computers,DC=burnincandle,DC=com	1	success	-	(objectclass=*)	-
+1647915129.972061	CXceOpTy78SdsdHpj	10.0.19.14	62557	10.0.19.9	389	5	base	never	CN=DESKTOP-5QS3D5D,CN=Computers,DC=burnincandle,DC=com	1	success	-	(objectclass=*)	-
+1647915129.972339	CXceOpTy78SdsdHpj	10.0.19.14	62557	10.0.19.9	389	6	base	never	CN=DESKTOP-5QS3D5D,CN=Computers,DC=burnincandle,DC=com	1	success	-	(objectclass=*)	-
+1647915129.975541	CujunP3cdFbGTcT725	10.0.19.14	62558	10.0.19.9	389	10	base	never	-	1	success	-	(ObjectClass=*)	-
+1647915129.976308	CujunP3cdFbGTcT725	10.0.19.14	62558	10.0.19.9	389	11	base	never	CN=62a0ff2e-97b9-4513-943f-0d221bd30080,CN=Device Registration Configuration,CN=services,CN=Configuration,DC=burnincandle,DC=com	0	no such object	0000208D: NameErr: DSID-03100288, problem 2001 (NO_OBJECT), data 0, best match of:??'CN=Services,CN=Configuration,DC=burnincandle,DC=com'??	(ObjectClass=*)	-
+1647915750.258454	CxBQAj1YaIjEBUg1Jb	10.0.19.14	62575	10.0.19.9	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1647915750.265118	CjVzrG20aRVnGEMhfd	10.0.19.14	59125	10.0.19.9	389	60	base	never	-	1	success	-	(&(&(&(&(&(DnsDomain=burnincandle.com.)(Host=DESKTOP-5QS3D5D))(DomainSid=S-1-5-21-830589029-4204018613-855996679))(DomainGuid=87bbb7d8-65a9-449d-88b4-24f8cfc9c572))(NtVer=0x20000016))(DnsHostName=DESKTOP-5QS3D5D.burnincandle.com))	-
+1647915750.376470	CxBQAj1YaIjEBUg1Jb	10.0.19.14	62575	10.0.19.9	389	4	tree	never	DC=burnincandle,DC=com	1	success	-	(|(distinguishedName=DC=burnincandle,DC=com))	-
+1647915750.385709	CCheNc1XoHl26pBXZ9	10.0.19.14	62576	10.0.19.9	389	8	base	never	-	1	success	-	(objectClass=*)	-
+1647915750.386530	CCheNc1XoHl26pBXZ9	10.0.19.14	62576	10.0.19.9	389	9	base	never	CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=burnincandle,DC=com	1	success	-	(objectClass=*)	-
+1647915750.388292	CxBQAj1YaIjEBUg1Jb	10.0.19.14	62575	10.0.19.9	389	10	tree	never	cn=policies,cn=system,DC=burnincandle,DC=com	0	success	-	(&(&(!(flags:1.2.840.113556.1.4.803:=1))(gPCUserExtensionNames=[*]))(|(distinguishedName=CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=Policies,CN=System,DC=burnincandle,DC=com)))	-
+1647917038.968321	CVj9wV36Gz20D5tUR5	10.0.19.14	65451	10.0.19.9	389	61	base	never	-	1	success	-	(&(&(&(&(DnsDomain=BURNINCANDLE.COM)(Host=DESKTOP-5QS3D5D))(DomainGuid=87bbb7d8-65a9-449d-88b4-24f8cfc9c572))(NtVer=0x20000016))(DnsHostName=DESKTOP-5QS3D5D.burnincandle.com))	-
+1647918729.617397	CKuywb3vmzJ8ZDJ92	10.0.19.14	57423	10.0.19.9	389	62	base	never	-	1	success	-	(&(&(&(&(DnsDomain=burnincandle.com.)(Host=DESKTOP-5QS3D5D))(DomainGuid=87bbb7d8-65a9-449d-88b4-24f8cfc9c572))(NtVer=0x00000016))(DnsHostName=DESKTOP-5QS3D5D.burnincandle.com))	-
+1647918729.793108	CtRCQz3UilnekHmGc8	10.0.19.14	57425	10.0.19.9	389	63	base	never	-	1	success	-	(&(&(&(&(DnsDomain=burnincandle.com.)(Host=DESKTOP-5QS3D5D))(DomainGuid=87bbb7d8-65a9-449d-88b4-24f8cfc9c572))(NtVer=0x20000016))(DnsHostName=DESKTOP-5QS3D5D.burnincandle.com))	-
+1647918729.900734	C0OE8J3sMD2y6fpUK9	10.0.19.14	62640	10.0.19.9	389	1	base	never	-	1	success	-	(objectclass=*)	-
+1647918729.905021	C0OE8J3sMD2y6fpUK9	10.0.19.14	62640	10.0.19.9	389	4	base	never	CN=DESKTOP-5QS3D5D,CN=Computers,DC=burnincandle,DC=com	1	success	-	(objectclass=*)	-
+1647918729.905885	C0OE8J3sMD2y6fpUK9	10.0.19.14	62640	10.0.19.9	389	5	base	never	CN=DESKTOP-5QS3D5D,CN=Computers,DC=burnincandle,DC=com	1	success	-	(objectclass=*)	-
+1647918729.906661	C0OE8J3sMD2y6fpUK9	10.0.19.14	62640	10.0.19.9	389	6	base	never	CN=DESKTOP-5QS3D5D,CN=Computers,DC=burnincandle,DC=com	1	success	-	(objectclass=*)	-
+1647918729.915041	C5vuEB1Lw8wlcRmUil	10.0.19.14	62641	10.0.19.9	389	10	base	never	-	1	success	-	(ObjectClass=*)	-
+1647918729.916352	C5vuEB1Lw8wlcRmUil	10.0.19.14	62641	10.0.19.9	389	11	base	never	CN=62a0ff2e-97b9-4513-943f-0d221bd30080,CN=Device Registration Configuration,CN=services,CN=Configuration,DC=burnincandle,DC=com	0	no such object	0000208D: NameErr: DSID-03100288, problem 2001 (NO_OBJECT), data 0, best match of:??'CN=Services,CN=Configuration,DC=burnincandle,DC=com'??	(ObjectClass=*)	-
+1647918742.412806	CW0kbOXe54zXzLLG2	10.0.19.14	57426	10.0.19.9	389	64	base	never	-	1	success	-	(&(&(&(&(&(DnsDomain=burnincandle.com.)(Host=DESKTOP-5QS3D5D))(DomainSid=S-1-5-21-830589029-4204018613-855996679))(DomainGuid=87bbb7d8-65a9-449d-88b4-24f8cfc9c572))(NtVer=0x00000016))(DnsHostName=DESKTOP-5QS3D5D.burnincandle.com))	-
+#close	2025-11-05-14-01-17

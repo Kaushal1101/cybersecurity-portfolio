@@ -1,0 +1,31 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2025-11-05-14-01-15
+#fields	ts	fuid	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted	extracted_cutoff	extracted_size
+#types	time	string	string	addr	port	addr	port	string	count	set[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string	bool	count
+1647896291.600901	FdoWadVWSioXcZSua	Cr4mZ049r1WkrqEBCf	10.0.19.14	62179	188.166.154.118	80	HTTP	0	(empty)	application/x-gzip	-	24.206623	F	F	393277	393277	0	0	F	-	-	-	-	-	-	-
+1647899684.434631	FXJkhP2Z2m8vw4ukM6	CjZaqyDHRjuCGBNr3	10.0.19.14	62259	104.80.96.219	80	HTTP	0	(empty)	-	-	0.000000	F	F	1306	1306	0	0	F	-	-	-	-	-	-	-
+1647900774.737765	FxpN302xsTSpeCjsGg	CE994cpXt5uIrKr	10.0.19.14	62313	10.0.19.9	445	SMB	0	(empty)	text/ini	burnincandle.com\\Policies\\{31B2F340-016D-11D2-945F-00C04FB984F9}\\gpt.ini	0.000000	T	F	22	22	0	0	F	-	-	-	-	-	-	-
+1647900774.768711	FLnoMf3UBA32AGBRBj	CE994cpXt5uIrKr	10.0.19.14	62313	10.0.19.9	445	SMB	0	(empty)	text/ini	burnincandle.com\\Policies\\{31B2F340-016D-11D2-945F-00C04FB984F9}\\Machine\\Microsoft\\Windows NT\\SecEdit\\GptTmpl.inf	0.000000	T	F	1098	1098	0	0	F	-	-	-	-	-	-	-
+1647900774.777760	FZzuD71RKnvnAkd6O7	CE994cpXt5uIrKr	10.0.19.14	62313	10.0.19.9	445	SMB	0	(empty)	application/vnd.ms-pol	burnincandle.com\\Policies\\{31B2F340-016D-11D2-945F-00C04FB984F9}\\Machine\\Registry.pol	0.000000	T	F	2800	2800	0	0	F	-	-	-	-	-	-	-
+1647900774.785574	FxpN302xsTSpeCjsGg	CE994cpXt5uIrKr	10.0.19.14	62313	10.0.19.9	445	SMB	0	(empty)	text/ini	burnincandle.com\\Policies\\{31B2F340-016D-11D2-945F-00C04FB984F9}\\gpt.ini	0.000000	T	F	22	22	0	0	F	-	-	-	-	-	-	-
+1647901731.792944	Fg538y1jDwOhP6Qm88	Csxn7ft7RyHcCj16e	10.0.19.14	62318	52.109.8.20	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1742	-	0	0	F	-	-	-	-	-	-	-
+1647902555.662242	FsD3to47YUEBkQOcZ	C4EBgx2iggre9OE4	10.0.19.14	62326	13.107.42.16	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1742	-	0	0	F	-	-	-	-	-	-	-
+1647906955.510404	FxpN302xsTSpeCjsGg	CA1MCD4GGOPDMMrd22	10.0.19.14	62371	10.0.19.9	445	SMB	0	(empty)	text/ini	burnincandle.com\\Policies\\{31B2F340-016D-11D2-945F-00C04FB984F9}\\gpt.ini	0.000000	T	F	22	22	0	0	F	-	-	-	-	-	-	-
+1647906955.536040	FLnoMf3UBA32AGBRBj	CA1MCD4GGOPDMMrd22	10.0.19.14	62371	10.0.19.9	445	SMB	0	(empty)	text/ini	burnincandle.com\\Policies\\{31B2F340-016D-11D2-945F-00C04FB984F9}\\Machine\\Microsoft\\Windows NT\\SecEdit\\GptTmpl.inf	0.000000	T	F	1098	1098	0	0	F	-	-	-	-	-	-	-
+1647906955.544939	FZzuD71RKnvnAkd6O7	CA1MCD4GGOPDMMrd22	10.0.19.14	62371	10.0.19.9	445	SMB	0	(empty)	application/vnd.ms-pol	burnincandle.com\\Policies\\{31B2F340-016D-11D2-945F-00C04FB984F9}\\Machine\\Registry.pol	0.000000	T	F	2800	2800	0	0	F	-	-	-	-	-	-	-
+1647906955.551078	FxpN302xsTSpeCjsGg	CA1MCD4GGOPDMMrd22	10.0.19.14	62371	10.0.19.9	445	SMB	0	(empty)	text/ini	burnincandle.com\\Policies\\{31B2F340-016D-11D2-945F-00C04FB984F9}\\gpt.ini	0.000000	T	F	22	22	0	0	F	-	-	-	-	-	-	-
+1647909022.236146	F8XzVWeRxh741WYKc	CDEdbd1Drm0CTi0Uhi	10.0.19.14	62419	52.109.8.19	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1742	-	0	0	F	-	-	-	-	-	-	-
+1647911025.956902	F5HgWu2HpZfadKttPk	CIkI904mM65FkmB0Hc	10.0.19.14	62468	184.85.64.91	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1742	-	0	0	F	-	-	-	-	-	-	-
+1647913135.358317	FxpN302xsTSpeCjsGg	CvhAHI2r5tnVqCGXKg	10.0.19.14	62515	10.0.19.9	445	SMB	0	(empty)	text/ini	burnincandle.com\\Policies\\{31B2F340-016D-11D2-945F-00C04FB984F9}\\gpt.ini	0.000000	T	F	22	22	0	0	F	-	-	-	-	-	-	-
+1647913135.382903	FLnoMf3UBA32AGBRBj	CvhAHI2r5tnVqCGXKg	10.0.19.14	62515	10.0.19.9	445	SMB	0	(empty)	text/ini	burnincandle.com\\Policies\\{31B2F340-016D-11D2-945F-00C04FB984F9}\\Machine\\Microsoft\\Windows NT\\SecEdit\\GptTmpl.inf	0.000000	T	F	1098	1098	0	0	F	-	-	-	-	-	-	-
+1647913135.390150	FZzuD71RKnvnAkd6O7	CvhAHI2r5tnVqCGXKg	10.0.19.14	62515	10.0.19.9	445	SMB	0	(empty)	application/vnd.ms-pol	burnincandle.com\\Policies\\{31B2F340-016D-11D2-945F-00C04FB984F9}\\Machine\\Registry.pol	0.000000	T	F	2800	2800	0	0	F	-	-	-	-	-	-	-
+1647913135.393858	FxpN302xsTSpeCjsGg	CvhAHI2r5tnVqCGXKg	10.0.19.14	62515	10.0.19.9	445	SMB	0	(empty)	text/ini	burnincandle.com\\Policies\\{31B2F340-016D-11D2-945F-00C04FB984F9}\\gpt.ini	0.000000	T	F	22	22	0	0	F	-	-	-	-	-	-	-
+1647914217.285385	FE7hTa3PoIbZAoTy1l	CcRso91ASJe3jBoEEa	10.0.19.14	62534	52.113.194.132	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1741	-	0	0	F	-	-	-	-	-	-	-
+1647914217.289987	FinDWZ1L0ke3LYaCMg	CRgDCYxkhuNYAvNDg	10.0.19.14	62533	52.113.194.132	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1741	-	0	0	F	-	-	-	-	-	-	-
+1647916312.804172	FMn8j14DeLcsvyMt9g	Ch43cw1IZSVhyVlsi6	10.0.19.14	62588	52.109.8.21	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1742	-	0	0	F	-	-	-	-	-	-	-
+1647918266.440589	FYL11x46r11oRd50n	CE7dK26FYwHm45LVf	10.0.19.14	62624	52.113.194.132	443	SSL	0	OCSP_REPLY	application/ocsp-response	-	0.000000	F	F	1777	-	0	0	F	-	-	-	-	-	-	-
+#close	2025-11-05-14-01-17

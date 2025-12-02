@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2025-11-05-14-01-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1647896379.602389	CuU49y2HjAQgehp3ck	10.0.19.14	62188	10.0.19.9	49667	netlogon_dce_rpc_auth_type	68	F	zeek	DCE_RPC
+1647896380.893282	CyLp0D1xoPqvit0D4k	10.0.19.14	62189	10.0.19.9	49676	netlogon_dce_rpc_auth_type	68	F	zeek	DCE_RPC
+1647899008.798917	ClgiZ04NoAAYK2IMm7	10.0.19.14	62226	10.0.19.9	49676	netlogon_dce_rpc_auth_type	68	F	zeek	DCE_RPC
+1647904588.595141	CNuQkb3lefShdnpiz8	10.0.19.14	62346	10.0.19.9	49676	netlogon_dce_rpc_auth_type	68	F	zeek	DCE_RPC
+1647910170.302397	C0VkmpV0TWQx2TaAi	10.0.19.14	62440	10.0.19.9	49676	netlogon_dce_rpc_auth_type	68	F	zeek	DCE_RPC
+1647915749.940791	Cln4np11lrhKZhZ0x4	10.0.19.14	62574	10.0.19.9	49676	netlogon_dce_rpc_auth_type	68	F	zeek	DCE_RPC
+1647918742.528265	CtUNj91qCt6Fa07Sub	10.0.19.14	62646	10.0.19.9	49667	netlogon_dce_rpc_auth_type	68	F	zeek	DCE_RPC
+#close	2025-11-05-14-01-17

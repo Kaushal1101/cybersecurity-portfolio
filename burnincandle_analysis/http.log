@@ -1,0 +1,27 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2025-11-05-14-01-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1647896291.303409	Cr4mZ049r1WkrqEBCf	10.0.19.14	62179	188.166.154.118	80	1	GET	oceriesfornot.top	/	-	1.1	-	-	0	393277	200	OK	-	-	(empty)	-	-	-	-	-	-	FdoWadVWSioXcZSua	-	application/x-gzip
+1647898172.135617	CgUfdS13YXsTHB9vza	10.0.19.14	62215	68.142.107.129	80	1	GET	ctldl.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/pinrulesstl.cab?d1adc478adff0d72	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1647899684.353032	CjZaqyDHRjuCGBNr3	10.0.19.14	62259	104.80.96.219	80	1	GET	r3.i.lencr.org	/	-	1.1	Microsoft-CryptoAPI/10.0	-	0	1306	200	OK	-	-	(empty)	-	-	-	-	-	-	FXJkhP2Z2m8vw4ukM6	-	-
+1647899971.243136	CvqCQi15Nj1UG6qv4e	10.0.19.14	62269	104.80.96.219	80	1	GET	x1.c.lencr.org	/	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1647899971.580964	CwHyA6V8QowvZYmUk	10.0.19.14	62270	69.28.162.0	80	1	GET	ctldl.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/authrootstl.cab?48e7354130cbe0e4	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1647901775.281200	CVurdh3iD08UhVCdr6	10.0.19.14	62320	209.197.3.8	80	1	GET	ctldl.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/pinrulesstl.cab?fcfd7669d19bb421	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1647903846.058127	CnauQUoNyHJJQwhb	10.0.19.14	62334	104.80.96.219	80	1	GET	x1.c.lencr.org	/	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1647903846.356989	COWXdi4Di5o3I2nKv9	10.0.19.14	62335	69.28.162.128	80	1	GET	ctldl.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/authrootstl.cab?161b4282e13b6962	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1647904916.047306	CBkc6g1fgmHe0KFV07	10.0.19.14	62352	72.21.81.240	80	1	GET	ctldl.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/disallowedcertstl.cab?1131f2daab4034ba	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1647906274.371334	CbzS4842JbCvviQB26	10.0.19.14	62363	72.21.81.240	80	1	GET	ctldl.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/pinrulesstl.cab?9770388e0c613755	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1647908974.887435	CX4ItB4N3FrPulS7Yd	10.0.19.14	62415	104.80.96.219	80	1	GET	x1.c.lencr.org	/	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1647908975.179327	CAkBT52iQFZx7eyIY8	10.0.19.14	62416	209.197.3.8	80	1	GET	ctldl.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/authrootstl.cab?c6c9c220471a286c	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1647910775.716220	C7Ld7X1JfZgDSDda37	10.0.19.14	62455	209.197.3.8	80	1	GET	ctldl.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/pinrulesstl.cab?36a063424dfa7851	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1647911082.964033	ChxMEf4naCCD0ZvwM	10.0.19.14	62470	72.21.81.240	80	1	GET	ctldl.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/disallowedcertstl.cab?0356947035b28e34	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1647914646.526312	CqdIFeGEjsLGRO902	10.0.19.14	62544	104.80.96.219	80	1	GET	x1.c.lencr.org	/	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1647914646.880749	CQ4EmT3UXkk6IFEYX	10.0.19.14	62545	68.142.107.1	80	1	GET	ctldl.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/authrootstl.cab?c66ea67221454a2e	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1647914647.025310	CQ4EmT3UXkk6IFEYX	10.0.19.14	62545	68.142.107.1	80	2	GET	ctldl.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/pinrulesstl.cab?416ee1a6826abea5	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1647915587.324783	CTKpYg2uY8RWsLzDAj	10.0.19.14	62570	23.219.38.10	80	1	GET	ctldl.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/disallowedcertstl.cab?8fd0590036de0ddd	-	1.1	Microsoft-CryptoAPI/10.0	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+#close	2025-11-05-14-01-17
