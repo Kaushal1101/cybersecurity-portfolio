@@ -1,7 +1,9 @@
 # RevengeHotels APT
 
 <br>
+
 ![Title pic](./media/img0.png)
+
 <br>
 
 ### Introduction
@@ -13,6 +15,7 @@ Now considering this is a longer lab with a hefty preamble, I decided to highlig
 
 ---
 <br>
+
 ***Q1) During the initial compromise, the threat actor distributed a phishing email containing a URL pointing to a malicious JavaScript file disguised as a legitimate document. What is the name of the JavaScript file downloaded from the phishing link?***
 
 This is my first time working with an entire disk image so I was initially a bit overwhelmed with the information given. Unlike a pcap, we are given a whole array of tools and artifacts.
@@ -214,7 +217,7 @@ This one took me a little longer than it should've. Looking through all the Even
 
 Eventually, by sheer luck, I happened to search swchost.exe on the sidebar and found an Event ID 11 log hidden much later on.
 
-![swchost.exe log few hours after attack](./media.img25.png)
+![swchost.exe log few hours after attack](./media/img25.png)
 
 As shown above, a file named ***Flfs6heTV2lb.exe*** is created, likely for exfiltration purposes as it was made hours after the initial attack, giving it ample time to collect data.
 
