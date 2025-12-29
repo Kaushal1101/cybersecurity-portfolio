@@ -36,7 +36,7 @@ As we can see above, there are 3 distinct steps in this attack:
 
 For point 2, I had to do some research into the command used. `/factory` is used when explorer wants to open a COM server, which essentially allows explorer to run specific tools without running the whole program. Importantly, it does this quietly, and so I researched the GUID that was given and found that it was simply spawning another explorer silently, to run its malicious scripts from.
 
-![Obfuscated command run](./media.img4.png)
+![Obfuscated command run](./media/img4.png)
 
 Now as for the command, I tried to deobfuscate it as shown above (already convertde from base64 and extra deobfuscation using python scripts) but I realised it was futile and ultimately unnecessary. After all, I already had all the information I needed to write my rule.
 
@@ -163,7 +163,7 @@ Our third and final level is relatively easy, given we only have 1 log to work w
 
 We can see this is a defense evasion tactic, where a value is deleted in the registry storing the rights for powershell processes running. Powershell can be run in Full Language Mode or CLM, Constrained Language Mode. In this case, since it's delete value, we know that the attacker is escalating their powershell privileges by removing `_PSLockdownPolicy` value from what it was to none, which is Full Language Mode.
 
-![Understanding the PSLockdownPolicy](./media.img14.png)
+![Understanding the PSLockdownPolicy](./media/img14.png)
 
 Hence, all we need to do is identify any logs that tamper with the registry in this way (whether to set escalate privileges or even vice versa to act benign). Our rule is therefore pretty simple. Notice our source is registry_event here (turns out we could've used it earlier to, but guess it wasn't necessary in the end) since our Event ID is 12, corresponding to registry events.
 
@@ -185,7 +185,7 @@ detection:
 
 And running this rule on Hunter x Hunter, we get:
 
-![Successful rule for level 3](./media.img15.png)
+![Successful rule for level 3](./media/img15.png)
 
 And that's all for this lab! Thanks again for reading my writeup.
 
