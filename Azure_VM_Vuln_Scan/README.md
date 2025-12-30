@@ -17,7 +17,11 @@ Using Schannel, I was able to create a registry key and explicitly disable 3DES 
 
 The goal of this lab was to ultimately understanding the basics of vulnerability scanning and how professionals do it in the real world, and hence I chose to use Nessus Professional instead of free versions like OpenVAS or Nessus Essential. Unfortunately, this being my first lab, I was likely unable to explore the full range of benefits provided by Nessus Professional, or use other tools like nmap which is regrettable, but a good lesson in hindsight.
 
-With all that said, let's begin with the lab!
+Mappings
+- CVE-2016-2183 (CVE)
+- T1557, T1040, T1046 (MITRE Techniques)
+- A02:2021 (OWASP)
+- Confidentiality (CIA Triad)
 
 ---
 
